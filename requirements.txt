@@ -1,6 +1,6 @@
 discord.py==2.1.0
 pynput==1.7.6
-pillow==10.0.1
+pillow==10.3.0
 filesplit==4.0.1
 pyaudio==0.2.12
 sounddevice==0.4.5
