@@ -564,7 +564,7 @@ else:
 
     bottom_buttons = Canvas(frame, width=1, height=1, bd=0)
     cbvar_disclaimer = BooleanVar(value=False)
-    cb_disclaimer = Checkbutton(bottom_buttons, selectcolor='#0A0A10', text='  I\'m aware that this malware has been made for educational purposes only, and the creator is no way responsible\n  for any direct or indirect damage caused due to the misusage of the information. Everything I do, I\'m doing at\n  my own risk and responsibility.', variable=cbvar_disclaimer, command=disclaimer_toggle, onvalue=True, offvalue=False, justify=LEFT, anchor=W)
+    cb_disclaimer = Checkbutton(bottom_buttons, selectcolor='#0A0A10', text='  I\'m aware that this malware has been created for educational and awareness purposes only, and the creator is \n  in no way responsible for any direct or indirect damage caused due to the misusage of the information. Everything I do, I\'m doing at\n  my own risk and responsibility.', variable=cbvar_disclaimer, command=disclaimer_toggle, onvalue=True, offvalue=False, justify=LEFT, anchor=W)
     cb_disclaimer.grid(row=1)
     bottom_buttons.pack(pady=(20, 0))
 
