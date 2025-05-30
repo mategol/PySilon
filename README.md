@@ -133,13 +133,16 @@ Join our Telegram and Discord servers for support, to ask questions, recommend f
 --------------------
 
 XMR: 4BGaWuNg1io79eHeM67HdEdWgucd6QGfnZACfoRh4eWQYXbGeJGAyxZ4gb15SssDQff4WShpcB3KaAXkyJZr3eQR719bfpp
+
 BTC: bc1qw6vp2pj74gthgftyh88rly03pjyuemcavsg9fp
+
 ETH: 0x8DBF8b713542b6AA96981Ce6Ab8a19eDf502356c
+
 LTC: LZP9Wbuwb4XgeJ8cQPpaWAkpAfWeXq363V
 
 --------------------
 
-### ToDo
+### TO-DO
 
 List of features that should appear in following releases:
 
