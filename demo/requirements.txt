@@ -1,0 +1,7 @@
+discord.py>=2.4.0
+python-dotenv>=1.0.1
+supabase>=2.15.3
+Pillow>=10.4.0
+pyinstaller>=6.0.0
+httpx>=0.27.0
+psutil>=5.9.8

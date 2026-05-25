@@ -21,3 +21,10 @@ build.bat
 disabled_processes.psln
 working_directory.json
 supabase/*/venv
+demo/venv
+demo/__pycache__
+demo/access/bot/__pycache__
+demo/access/bot/.env.bot
+demo/output/
+demo/run/
+demo/cfg/configuration.json

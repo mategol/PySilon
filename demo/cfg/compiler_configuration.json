@@ -1,0 +1,17 @@
+{
+    "feature_imports": [
+        ["cpu", "features/cpu_usage.py", "imports"],
+        ["ram", "features/ram_usage.py", "imports"],
+        ["disk", "features/disk_usage.py", "imports"]
+    ],
+    "handler_defs": [
+        ["cpu", "features/cpu_usage.py", "handlers"],
+        ["ram", "features/ram_usage.py", "handlers"],
+        ["disk", "features/disk_usage.py", "handlers"]
+    ],
+    "handler_registry": [
+        ["cpu", "features/cpu_usage.py", "registry"],
+        ["ram", "features/ram_usage.py", "registry"],
+        ["disk", "features/disk_usage.py", "registry"]
+    ]
+}

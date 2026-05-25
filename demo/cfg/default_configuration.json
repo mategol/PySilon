@@ -1,0 +1,12 @@
+{
+    "supabase_url": "",
+    "supabase_anon_key": "",
+    "install_dir": "C:\\Program Files (x86)\\Monitoring",
+    "state_dir": "./state",
+    "executable_name": "client",
+    "features": {
+        "cpu": true,
+        "ram": true,
+        "disk": true
+    }
+}
