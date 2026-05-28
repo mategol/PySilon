@@ -1,5 +1,6 @@
 @echo off
 title PySilon
+cd /d "%~dp0"
 echo Initializing the virtual environment...
 python -m venv pysilon
 cls
