@@ -18,7 +18,7 @@ Read our extensive Wiki for more information and detailed building instructions.
 
 Join our Telegram group for support, to ask questions, recommend features and talk to like minded individuals!
 
-[![Telegram - Group](https://img.shields.io/badge/pysilon-community-blue?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/+8razFyklyFw2OWU0)
+[![Telegram - Group](https://img.shields.io/badge/pysilon-community-blue?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/pysilon_community)
 
 --------------------
 
